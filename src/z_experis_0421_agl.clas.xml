@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z_AG</CLSNAME>
+    <CLSNAME>Z_EXPERIS_0421_AGL</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Mi primerita clase</DESCRIPT>
+    <DESCRIPT>Prácticas de Código</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
