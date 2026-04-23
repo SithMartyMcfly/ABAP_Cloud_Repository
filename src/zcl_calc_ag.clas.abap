@@ -23,7 +23,7 @@ CLASS zcl_calc_ag IMPLEMENTATION.
     DATA(lv_num1) = 3.
     DATA(lv_num2) = 2.
 
-    lv_operador = 'divide'.
+    lv_operador = 'div'.
 
     IF ( lv_operador = 'suma' ).
       out->write( lv_num1 + lv_num2 ).
@@ -37,6 +37,9 @@ CLASS zcl_calc_ag IMPLEMENTATION.
         CATCH cx_sy_zerodivide.
           out->write( 'No se puede dividir por cero' ).
       ENDTRY.
+      ELSE.
+      out->write( 'LuisCa te he pillao' ).
+
     ENDIF.
 
 **********************************************************************
